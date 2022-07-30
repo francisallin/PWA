@@ -1,3 +1,7 @@
+body {
+    font-family: 'roboto';
+}
+
 li {
     list-style: none;
 }
@@ -9,13 +13,30 @@ img {
 
 ul {
     margin: 0px;
+    align-items: center;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 16px 0px;
+    background-color: #3882f6;
+    font-family: 'roboto';
+    font-size: 16px;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+
 }
 
 .header,
 .navbar,
-.intro {
+.intro,
+.info-header,
+.info,
+.quote,
+.quote-origin 
+.call-to-action {
     display: flex;
-    font-family: 'roboto';
 }
 
 .header {
@@ -23,7 +44,7 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
-    padding: 16px;
+    padding: 40px;
 }
 
 .navbar {
@@ -42,16 +63,90 @@ ul {
     width: 100%;
     background-color: #1f2937;
     color: #F9FAF8;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
 }
 
 .intro-text {
-    width: 300px;
+    width: 400px;
     padding: 32px;
 }
 
 .intro-pic {
     width: 300px;
     height: auto;
+}
+
+.info-header {
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    padding: 20px;
+}
+
+.info{
+    padding: 30px 50px;
+    gap: 10px;
+    flex: 0 1 0;
+}
+
+.info-pic {
+    text-align: center;
+    min-width: 200px;
+}
+
+.info-pic img {
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+
+}
+
+.quote {
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 60px 150px;
+    align-items: flex-end;
+}
+
+.quote-box {
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-origin {
+    width: 300px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.call-to-action {
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.call-to-action button {
+    border: 1px solid white;
+    margin: 0px 30px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 10px
 }
