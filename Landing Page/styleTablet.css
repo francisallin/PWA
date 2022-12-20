@@ -25,7 +25,11 @@ button {
     color: white;
     border: 0px;
     border-radius: 7px;
+
 }
+
+.header,
+.navbar,
 .intro,
 .info-header,
 .info,
@@ -33,11 +37,6 @@ button {
 .quote-origin 
 .call-to-action {
     display: flex;
-}
-
-.header,
-.navbar{
-    display: block;
 }
 
 .header {
