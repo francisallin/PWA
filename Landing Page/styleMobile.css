@@ -51,6 +51,15 @@ button {
     padding: 40px;
 }
 
+.header img{
+    display: none;
+}
+
+.mobile-header {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .navbar {
     margin-left: auto;
 }

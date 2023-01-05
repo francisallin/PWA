@@ -7,6 +7,7 @@ The aim of this project is to
 
 Image credits:
 <a href="https://www.flaticon.com/packs/work-office-1">by Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.com/packs/general-office-1">by BomSymbols - Flaticon</a>
 
 Quote credits:
 <a href="https://babel.hathitrust.org/cgi/pt?id=uc1.b4399841&view=1up&seq=15">

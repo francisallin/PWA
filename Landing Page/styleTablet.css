@@ -40,11 +40,27 @@ button {
 }
 
 .header {
+    display: sticky;
     background-color: #1f2937;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
     padding: 40px;
+}
+
+.header img{
+    display: static;
+    width: 120px;
+    height: auto;
+}
+
+.mini-navbar {
+    width: 20px;
+}
+.mobile-header {
+    display: none;
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .navbar {

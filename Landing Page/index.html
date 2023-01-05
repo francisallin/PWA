@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" type="text/css" media="only screen and (min-width:1024px)">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <!--
         <link rel="stylesheet" href="styleTablet.css" type="text/css" media="only screen and (min-width:501px) and (max-width: 1023px)">
         <link rel="stylesheet" href="styleMobile.css" type="text/css" media="only screen and (max-width:500px)">
+        -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <title>
            OptomHub
@@ -14,8 +16,19 @@
     <body>
         <div class="header">
             <a href="../Landing Page/index.html" >
-                <img src="images/optomhublogo.png" width="240" height="auto" alt="OptomHub">
+                <img src="images/optomhublogo.png" alt="OptomHub">
+                <div class="mobile-header">OptomHub</div>
             </a>
+            <div class="mini-navbar" onclick="ShowMenu()">
+                <a href="#"><img src="images/menu.png"> </a><br>
+                <ul class="vertical-navbar">
+                    <li><a href="../Exercises/index.html">Exercises</a></li>
+                    <li><a href="#">Calculator</a></li>
+                    <li><a href="https://www.reviewofoptometry.com/">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>                    
+                </ul>
+            </div>
             <ul class="navbar">
                 <li><a href="../Exercises/index.html">Exercises</a></li>
                 <li><a href="#">Calculator</a></li>
@@ -42,7 +55,7 @@
         <div class="info">
             <div class="info-pic">
                 <img src="images/paper.png"> <br>
-                Free exercises to brush up your knowledge
+                Free MCQs to brush up your knowledge
             </div>
             <div class="info-pic">
                 <img src="images/calculator.png"> <br>
@@ -80,4 +93,5 @@
             Copyright OptomHub 2022
         </div>
     </body>
+    <script src="javascript.js"></script>
 </html>
