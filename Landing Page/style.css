@@ -144,23 +144,19 @@ button {
     border-radius: 10px;
     margin: 50px;
 }
-
 .call-to-action button {
     border: 1px solid white;
-    margin: 0px 30px;
+    margin: 20px 0px 0px;
 }
-
 .footer {
     text-align: center;
     background-color: #1f2937;
     color: #E5E7EB;
     padding: 10px
 }
-
 .question{
     font-weight: 600;
   }
-
 .answers {
       margin-bottom: 20px;
   }
@@ -251,5 +247,25 @@ button {
         padding: 20px;
         border: 2px solid #3882f6;
         border-radius: 8px;
+        
     }    
+    .quote {
+        flex-direction: column;
+        background-color: #e5e7eb;
+        max-width: 900px;
+        padding: 30px 20px;
+        align-items: flex-end;
+    }
+    .quote-box {
+        font-size: 20px;
+        font-style: italic;
+        color: #1f2937;
+    }
+    .quote-origin {
+        width: 300px;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: end;
+    }
+    
 }
