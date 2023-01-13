@@ -3,22 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <!--<link rel="stylesheet" href="styleTablet.css" type="text/css" media="only screen and (min-width:501px) and (max-width: 1023px)">-->
-        <link rel="stylesheet" href="styleMobile.css" type="text/css" media="only screen and (max-width:420px)">
+        <link rel="stylesheet" href="../LandingPage/style.css" type="text/css">
+        <!--
+        <link rel="stylesheet" href="styleTablet.css" type="text/css" media="only screen and (min-width:501px) and (max-width: 1023px)"> -->
+        <link rel="stylesheet" href="../LandingPage/styleMobile.css" type="text/css" media="only screen and (max-width:420px)">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <title>
            OptomHub
         </title>
     </head>
     <body>
-        <div class="header">
-            <a href="../Landing Page/index.html" >
-                <img src="images/optomhublogo.png" alt="OptomHub">
-                <div class="mobile-header">OptomHub</div>
+        <div id="header">
+            <a href="../LandingPage/index.html" >
+                <img src="../LandingPage/images/optomhublogo.png" alt="OptomHub">
+                <div id="mobile-header">OptomHub</div>
             </a>
-            <div class="mini-navbar" onclick="ShowMenu()">
-                <a href="#"><img src="images/menu.png"> </a><br>
+            <div id="mini-navbar" onclick="ShowMenu()">
+                <a href="#"><img src="../LandingPage/images/menu.png"> </a><br>
                 <ul class="vertical-navbar">
                     <li><a href="../Exercises/index.html">Exercises</a></li>
                     <li><a href="#">Calculator</a></li>
@@ -27,7 +28,7 @@
                     <li><a href="#">About</a></li>                    
                 </ul>
             </div>
-            <ul class="navbar">
+            <ul id="navbar">
                 <li><a href="../Exercises/index.html">Exercises</a></li>
                 <li><a href="#">Calculator</a></li>
                 <li><a href="https://www.reviewofoptometry.com/">News</a></li>
@@ -35,22 +36,41 @@
                 <li><a href="#">About</a></li>
             </ul>
         </div>
-       <div id="QuizRegion">
-            <div id="quiz"></div>
-            <button id="submit">Submit Quiz</button>
-            <div id="results"></div>
-       </div>
-        <div class="call-to-action">
+        <div id="intro">
+            <div id="intro-text">
+                <h1>Revisiting your knowledge</h1><br>
+                One question at a time, at your own pace <br>
+            </div>
+            <div id="intro-pic">
+                <img src="https://imagebank.asrs.org/Content/imagebank/49822-006.JPG/image-full;max$643,0.ImageHandler" alt="Giant papillary conjunctivitis">
+            </div>
+        </div>
+        <div id="info-header">
+            Multiple Choice Exercises
+        </div>
+        <div id="exercise">
+            Currently there is no save function for exercises. <br>
+            If you have any suggestion for the exercises, please feel free to contact us through the "About" link.
+        </div>
+        <div id="exercise-links">
+            <ul>
+                <li><a href="Anterior/index.html">Anterior eye diseases</a></li>
+                <li><a href="Posterior/index.html">Posterior eye diseases</a></li>
+                <li><a href="Glaucoma/index.html">Glaucoma</a></li>
+                <li><a href="BV/index.html">Binocular vision</a></li>
+            </ul>
+        </div>
+        <div id="call-to-action">
             <div>
-                OptomHub - where your study continues
+                OptomHub - where your study continues <br>
                 <button>
                     Sign up
                 </button>    
             </div>
         </div>
-        <div class="footer"> 
+        <div id="footer"> 
             Copyright OptomHub 2023
         </div>
-        <script src="javascript.js" type="text/javascript"></script>
     </body>
+    <script src="../LandingPage/javascript.js"></script>
 </html>
