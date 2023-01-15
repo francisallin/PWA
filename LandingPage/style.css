@@ -111,7 +111,19 @@ button {
     border: 2px solid #3882f6;
     border-radius: 8px;
 }
-
+#exercise{
+    padding: 10px 30px;
+    color: #1f2937;
+    line-height: 1.6;
+}
+#exercise-links ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px;
+    background-color: #1e488d;
+    border-radius: 8px;
+    line-height: 60px;
+}
 #quote {
     flex-direction: column;
     background-color: #e5e7eb;

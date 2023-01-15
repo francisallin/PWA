@@ -22,17 +22,17 @@ button {
     border: 0px;
     border-radius: 7px;
 }
-.info-header,
-.info,
-.quote,
-.quote-origin 
-.call-to-action {
+#info-header,
+#info,
+#quote,
+#quote-origin 
+#call-to-action {
     display: flex;
 }
-.navbar{
+#navbar{
     display: block;
 }
-.header {
+#header {
     background-color: #1f2937;
     font-size: 24px;
     color: #F9FAF8;
@@ -41,49 +41,49 @@ button {
     position: sticky;
     top: 0;
 }
-.header img{
+#header img{
     display: none;
 }
-.mobile-header {
+#mobile-header {
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: #E5E7EB;
 }    
-.mini-navbar{
+#mini-navbar{
     display: block;
     margin-left: auto;
     padding-left: 0;
 }
-.mini-navbar a img {
+#mini-navbar a img {
     display: flex;
     width: 20px;
     position: absolute;
     right: 20px;
 }
-.mini-navbar ul li {
+#mini-navbar ul li {
     border-bottom: solid 2px #E5E7EB;
     padding-right: 20px;
 }
-.mini-navbar ul li a {
+#mini-navbar ul li a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
 }
-.navbar{
+#navbar{
     display: none;
 }
-.navbar a {
+#navbar a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
     padding: 8px;
     justify-content: space-around;
 }
-.vertical-navbar{
+#vertical-navbar{
     display: none;
 }
-.intro {
+#intro {
     display: block;
     width: 100%;
     background-color: #1f2937;
@@ -93,8 +93,8 @@ button {
     gap: 20px;
     padding-bottom: 40px;
 }
-.intro-text,
-.intro-pic {
+#intro-text,
+#intro-pic {
     width: 270px;
     padding: 16px;
     height: auto;
@@ -102,17 +102,17 @@ button {
     margin-left: auto;
     text-align: center;
 }
-.intro-text h1{
+#intro-text h1{
     font-size: 24px;
 }
-.info-header {
+#info-header {
     justify-content: center;
     font-size: 20px;
     font-weight: bold;
     color: #1f2937;
     padding: 30px 10px;
 }
-.info{
+#info{
     gap: 10px;
     margin: auto;
     justify-content: center;
@@ -122,12 +122,12 @@ button {
     padding: 10px 10px;
     flex-wrap: wrap;
 }
-.info-pic {
+#info-pic {
     text-align: center;
     max-width: 120px;
     flex: auto;
 }
-.info-pic img {
+#info-pic img {
     border: 2px solid #3882f6;
     border-radius: 8px;
     width: 80px;
@@ -135,25 +135,25 @@ button {
     padding: 10px;
     margin-bottom: 10px;
 }   
-.quote {
+#quote {
     flex-direction: column;
     background-color: #e5e7eb;
     max-width: 400px;
     padding: 30px 20px;
     align-items: flex-end;
 }
-.quote-box {
+#quote-box {
     font-size: 20px;
     font-style: italic;
     color: #1f2937;
 }
-.quote-origin {
+#quote-origin {
     width: 300px;
     font-size: 12px;
     font-weight: 500;
     text-align: end;
 }
-.call-to-action {
+#call-to-action {
     justify-content: center;
     background-color: #3882f6;
     color: white;
@@ -164,20 +164,20 @@ button {
     border-radius: 10px;
     margin: 50px;
 }
-.call-to-action button {
+#call-to-action button {
     border: 1px solid white;
     margin: 20px 0px 0px;
 }
-.footer {
+#footer {
     text-align: center;
     background-color: #1f2937;
     color: #E5E7EB;
     padding: 10px
 }
-.question{
+#question{
     font-weight: 600;
   }
-.answers {
+#answers {
       margin-bottom: 20px;
   }
 #submit{
