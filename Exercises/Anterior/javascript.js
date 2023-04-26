@@ -1,3 +1,7 @@
+const ShowNavbar = document.querySelector(".vertical-navbar");
+function ShowMenu() {
+    ShowNavbar.classList.toggle("vertical-navbar");
+}
 /*
 Copied from
 https://www.sitepoint.com/simple-javascript-quiz/
