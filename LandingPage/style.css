@@ -107,7 +107,7 @@ button {
     height: auto;
     padding-right: 32px;
 }
-
+/*For "What does this site do" region*/
 #info-header {
     justify-content: center;
     font-size: 36px;
@@ -135,6 +135,7 @@ button {
     border: 2px solid #3882f6;
     border-radius: 8px;
 }
+/*For Exercise directory page, configures the region with button*/
 #exercise{
     padding: 10px 30px;
     color: #1f2937;
@@ -144,10 +145,17 @@ button {
     text-decoration: none;
     color: #FFFFFF;
     padding: 15px;
-    background-color: #1e488d;
+    background-color: #214580;
     border-radius: 8px;
     line-height: 60px;
 }
+/*For the actual exercise page*/
+#QuizRegion, #exercise{
+    width: 600px;
+    margin: 0 auto;
+    color: #294368;
+}
+/*For the quote region of home page*/
 #quote {
     flex-direction: column;
     background-color: #e5e7eb;
