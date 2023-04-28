@@ -150,10 +150,13 @@ button {
     line-height: 60px;
 }
 /*For the actual exercise page*/
-#QuizRegion, #exercise{
+#QuizRegion, 
+#exercise,
+#calculator{
     width: 600px;
     margin: 0 auto;
     color: #294368;
+    line-height: 1.5;
 }
 /*For the quote region of home page*/
 #quote {

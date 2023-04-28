@@ -71,7 +71,7 @@ const myQuestions = [
     correctAnswer: "a"
   },
   {
-    question: "<br>7. What is a possible cause of this finding? <br><img src=\"https://www.reviewofoptometry.com/CMSImagesContent/2022/11/RO/063_ro1122_F4_Koetting.jpg\" width=500> <br> <h5>source: www.reviewofoptometry.com/CMSImagesContent/2022/11/RO/063_ro1122_F4_Koetting.jpg</h5>",
+    question: "<br>7. What is a possible cause of this finding? <br><img src=\"https://www.reviewofoptometry.com/CMSImagesContent/2022/11/RO/063_ro1122_F4_Koetting.jpg\" alt=\"lashes with collerettes\" width=500> <br> <h5>source: www.reviewofoptometry.com/CMSImagesContent/2022/11/RO/063_ro1122_F4_Koetting.jpg</h5>",
     answers: {
       a: "Chalazion",
       b: "Demodex infestation",
