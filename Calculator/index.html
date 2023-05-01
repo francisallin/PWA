@@ -55,51 +55,52 @@
                 <br> <div style="font-size: x-small">Source: https://wikimedia.org/api/rest_v1/media/math/render/svg/91917c8f30e22ae6c92f1c7625feb93ae9d7044d</div>
             </div>
         </div>
-        <div id="info-header">
-            BVP calculator
-        </div>
         <div id="calculator">
+            <br>
             Instructions to use BVP calculator <br>
             1. Choose the power conversion mode <br> 
             2. If Custom mode is chosen, input your original BVD and new BVD <br>
             3. Input the original Rx. <br>
             4. Click/tab on any white space of the form. The result will be displayed automatically <br>
+            <div id="FormInput">
+                <form>
+                    <fieldset>
+                        <legend><h3>&ensp; BVP Calculator &ensp;</h3></legend>
+                        <div id="Modes">
+                            <input type="radio" id="SpecCL" value="SpecCL" name="modes">
+                            <label for="SpecCL">Spectacles Rx to CL Rx</label> <br>
+                            <input type="radio" id="CLSpec" value="CLSpec" name="modes">
+                            <label for="CLSpec">CL Rx to Spectacles Rx</label> <br>
+                            <input type="radio" id="Custom" value="Custom" name="modes">
+                            <label for="Custom">Custom mode</label> <br>
+                            <label for="OriBVD">Original BVD: </label>
+                            <input type="number" id="OriBVD" size="5" min="0" placeholder="12">mm &emsp;
+                            <label for="NewBVD">New BVD: </label>
+                            <input type="number" id="NewBVD" size="5" min="0" placeholder="0">mm
+                        </div>
+                        <div id="OriginalRx">
+                            <p>Original Rx</p>
+                            <label>R &emsp;</label>
+                            <input type="text" id="OriRSph" > / <input type="text" id="OriRCyl"> x <input type="text" id="OriRAxis"> <br>
+                            <label>L &emsp;</label>
+                            <input type="text" id="OriLSph" > / <input type="text" id="OriLCyl"> x <input type="text" id="OriLAxis">
+                        </div>
+                        <div id="Result Rx">
+                            <p>New Rx</p>
+                            <label>R &emsp;</label>
+                            <input type="text" id="NewRSph" > / <input type="text" id="NewRCyl"> x <input type="text" id="NewRAxis"> <br>
+                            <label>L &emsp;</label>
+                            <input type="text" id="NewLSph" > / <input type="text" id="NewLCyl"> x <input type="text" id="NewLAxis">
+                        </div>
+                    </fieldset>
+                </form>    
+            </div>
             <div style="font-size: small">
-                Remarks: <br>
+                <br> Remarks: <br>
                 1. Default BVD is 12 mm. Use Custom mode if you prefer other BVD. <br>
                 2. All calculation and result are for reference only. OptomHub is <strong><em>not</em></strong> responsible for any liability or harm arised from using this calculator for clinical or business purpose. <br>
                 3. For those who want to get your contacts power and buy contacts online: Don't try it. Without proper fitting, the new contacts may be too tight / loose, which will cause damage to your eyes. Get an optometrist.
             </div> <br>
-            <div id="FormInput">
-                <form>
-                    <div id="Modes">
-                        <input type="radio" id="SpecCL" value="SpecCL">
-                        <label for="SpecCL">Spectacle Rx to CL Rx</label> <br>
-                        <input type="radio" id="CLSpec" value="CLSpec">
-                        <label for="CLSpec">CL Rx to Spectable Rx</label> <br>
-                        <input type="radio" id="Custom" value="Custom">
-                        <label for="Custom">Custom mode</label> <br>
-                        <label for="OriBVD">Original BVD: </label>
-                        <input type="text" id="OriBVD" size="5">mm &emsp;
-                        <label for="NewBVD">New BVD: </label>
-                        <input type="text" id="NewBVD" size="5">mm
-                    </div>
-                    <div id="OriginalRx">
-                        <p>Original Rx</p>
-                        <label>R &emsp;</label>
-                        <input type="text" id="OriRSph" > / <input type="text" id="OriRCyl"> x <input type="text" id="OriRAxis"> <br>
-                        <label>L &emsp;</label>
-                        <input type="text" id="OriLSph" > / <input type="text" id="OriLCyl"> x <input type="text" id="OriLAxis">
-                    </div>
-                    <div id="Result Rx">
-                        <p>New Rx</p>
-                        <label>R &emsp;</label>
-                        <input type="text" id="NewRSph" > / <input type="text" id="NewRCyl"> x <input type="text" id="NewRAxis"> <br>
-                        <label>L &emsp;</label>
-                        <input type="text" id="NewLSph" > / <input type="text" id="NewLCyl"> x <input type="text" id="NewLAxis">
-                    </div>
-                </form>    
-            </div>
         </div>
         <div id="call-to-action">
             <div>

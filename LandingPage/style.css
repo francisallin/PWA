@@ -149,7 +149,7 @@ button {
     border-radius: 8px;
     line-height: 60px;
 }
-/*For the actual exercise page*/
+/*For the actual exercise and calculator page*/
 #QuizRegion, 
 #exercise,
 #calculator{
@@ -157,6 +157,12 @@ button {
     margin: 0 auto;
     color: #294368;
     line-height: 1.5;
+}
+/*For calculator only*/
+#FormInput fieldset,
+#FormInput input {
+    border: #3882f6 solid 1px;
+    border-radius: 5px;
 }
 /*For the quote region of home page*/
 #quote {
