@@ -163,6 +163,7 @@ button {
 #FormInput input {
     border: #3882f6 solid 1px;
     border-radius: 5px;
+    color: #1f2937;
 }
 /*For the quote region of home page*/
 #quote {

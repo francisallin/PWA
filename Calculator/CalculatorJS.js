@@ -55,5 +55,28 @@ $(document).ready(function() {
             $('#NewLCyl').val((lMeridian2-lMeridian1).toFixed(2));
             $('#NewLAxis').val($('#OriLAxis').val());
         }
+        //prevent showing NaN in new Rx box
+        if($('#OriRSph').val()==""){
+            $('#NewRSph').val("");
+        }
+        if($('#OriLSph').val()==""){
+            $('#NewLSph').val("");
+        }
     }
+    //The following is a failed attempt in removing NaN in the new Rx fields
+    // function RemoveNan(field){
+    //     let temp = parseInt(field);
+    //     let newfield = (isNaN(temp) ? 0:temp);
+    //     field = newfield;
+    // }
+    // RemoveNan($('NewRSph').val());
+    // _amount: function(e) {
+    //     var value = parseInt(e.target.value);
+    //     var newValue = (isNaN(value) ? 0 : value);
+      
+    //     //OR sorthand as `NaN` is falsey
+    //     var value = parseInt(e.target.value) || 0;
+    //   }
+    //isNaN(parseInt($('#NewRSph').val())) ? 0:$('#NewRSph').val();// isNaN()
 })
+

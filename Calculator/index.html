@@ -16,11 +16,11 @@
     <body>
         <div id="header">
             <a href="/LandingPage/index.html" >
-                <img src="images/optomhublogo.png" alt="OptomHub">
+                <img src="/LandingPage/images/optomhublogo.png" alt="OptomHub">
                 <div id="mobile-header">OptomHub</div>
             </a>
             <div id="mini-navbar" onclick="ShowMenu()">
-                <a href="#"><img src="images/menu.png"> </a><br>
+                <a href="#"><img src="/LandingPage/images/menu.png"> </a><br>
                 <ul class="vertical-navbar"> 
                     <li><a href="/Exercises/index.html">Exercises</a></li>
                     <li><a href="#">Calculator</a></li>
@@ -60,7 +60,7 @@
             Instructions to use BVP calculator <br>
             1. Choose the power conversion mode <br> 
             2. If Custom mode is chosen, input your original BVD and new BVD <br>
-            3. Input the original Rx. <br>
+            3. Input the original Rx in diopter form (Eg: -3.75, +2 etc, <em><strong>not</strong></em> -375 or +200 ). <br>
             4. Click/tab on any white space of the form. The result will be displayed automatically <br>
             <div id="FormInput">
                 <form>
@@ -88,9 +88,9 @@
                         <div id="Result Rx">
                             <p>New Rx</p>
                             <label>R &emsp;</label>
-                            <input type="text" id="NewRSph" > / <input type="text" id="NewRCyl"> x <input type="text" id="NewRAxis"> <br>
+                            <input type="text" id="NewRSph" disabled> / <input type="text" id="NewRCyl" disabled> x <input type="text" id="NewRAxis" disabled> <br>
                             <label>L &emsp;</label>
-                            <input type="text" id="NewLSph" > / <input type="text" id="NewLCyl"> x <input type="text" id="NewLAxis">
+                            <input type="text" id="NewLSph" disabled> / <input type="text" id="NewLCyl" disabled> x <input type="text" id="NewLAxis" disabled>
                         </div>
                     </fieldset>
                 </form>    
