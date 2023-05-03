@@ -84,21 +84,21 @@ const myQuestions = [
     question: "<br>8. If you can only diagnose with the following picture, what is the most probable diagnosis? <br> <img src=\"https://assets.bmctoday.net/retinatoday/images/articles/2018-04/0418_RT_CF2_Fig1.png\" alt=\"sectorial flame haemorrhage\" width=500> <h5>source: https://assets.bmctoday.net/retinatoday/images/articles/2018-04/0418_RT_CF2_Fig1.png",
     answers: {
       a: "Purtscher retinopathy",
-      b: "Branch retinal artery occlusion",
-      c: "Branch retinal vein occlusion",
+      b: "Branch retinal vein occlusion",
+      c: "Branch retinal artery occlusion",
       d: "Proliferative diabetic retinopathy"
     },
-    correctAnswer: "c"
+    correctAnswer: "b"
   },
   {
     question: "<br>9. What is the most probable diagnosis based on this OCT scan of macula? <br> <img src=\"https://www.aao.org/image.axd?id=72b665d2-ade4-41b5-936d-809831823678&t=635859497224800000\" alt=\"OCT image\" width=300> <h5>source: https://www.aao.org/image.axd?id=72b665d2-ade4-41b5-936d-809831823678&t=635859497224800000</h5>",
     answers: {
-      a: "Foveoschisis",
+      a: "Central serous retinopathy",
       b: "Cystic macular edema",
-      c: "Central serous retinopathy",
+      c: "Foveoschisis",
       d: "Choroidal neovascular membrane"
     },
-    correctAnswer: "c"
+    correctAnswer: "a"
   },
   {
     question: "<br>10. Which of the following is/are symptoms of papilloedema? <br> i. Headache upon waking <br> ii. Feeling of pressure near orbit <br> iii. Tinnitus",
